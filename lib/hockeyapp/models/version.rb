@@ -6,6 +6,7 @@ module HockeyApp
     include ActiveModelCompliance
 
     ATTRIBUTES = [
+      :id,
       :version,
       :mandatory,
       :config_url,
